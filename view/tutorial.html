@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title> البحث العلمي </title>
+   <script src="../public/images/ic.png"></script>
+
+</head>
+<body  >
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-weight:Bold ;" dir="rtl">
+    <div class="container-fluid mx-0">
+        <img src="../public/images/navbarlogo.png" class="">
+        <a class="navbar-brand col-7" href="#">نـظــام الــبــحــث العــلــمــي</a>
+        <div class="">
+            <a class="btn btn-dark" href="https://www.mutah.edu.jo/Home.aspx" target="_blank">موقع الجامعة</a>
+        </div>
+        <div>
+            <a class="btn btn-dark" href="https://www.scopus.com" target="_blank">Scopus</a>
+        </div>
+        <div>
+            <a class="btn btn-dark" href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">Pubmed</a>
+        </div>
+        <div class="">
+            <a class="btn btn-dark" href="https://clarivate.com/" target="_blank">Clarivate</a>
+        </div>
+        <div class="align-content-end">
+            <!-------
+            <button class="btn btn-light" id="logout" style="font-weight:bold ;">تسجيل الخروج</button>
+            ------->
+
+            <a href="../LoginPage.php" class="btn btn-light" role="button">تسجيل الدخول </a>
+        </div>
+
+
+    </div>
+</nav>
+<!-- <div class="text-center">
+    <img src="mu3.png" class="rounded"height="200" width="200" alt="...">
+</div> -->
+
+<!-- End Example Code -->
+<div class="p-4 mb-3 bg-light rounded">
+    <h4 class="fst-italic"></h4>
+    <div class="text-center" dir="rtl">
+    <p class="mb-0">تقوم هذه الصفحه على مساعدة المستخدمين في استعمال موقع حوافز البحث العلمي لجامعة مؤته .</p>
+    </div>
+</div>
+<!-- START THE FEATURETTES -->
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1" dir="rtl">الصفحه الاولى : <span class="text-muted"> صفحة الدخول </span></h2>
+        
+        <p class="lead" dir="rtl">يتم تسجيل الدخول باستخدام اسم المستخدم وكلمة المرور الخاصة بنظام البحث العلمي</p>
+        <p class="lead"dir="rtl">إذا لم يكن لديك حساب أو كان هذا هو أول استخدام لك للموقع ، فيجب عليك التسجيل أولاً .</p>
+    </div>
+    <div class="col-md-5">
+
+        <img src="../public/images/loginPage.png" class="img-thumbnail" height="500" width="500" alt="...">
+
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette" >
+    <div class="col-md-7 order-md-2" >
+        <h2 class="featurette-heading fw-normal lh-1"dir="rtl">الصفحه الثانية: <span class="text-muted"> صفحة التسجيل </span></h2>
+        <p class="lead"dir="rtl">
+            صفحة التسجيل للإستخدام لأول مرة
+            </p>
+        <p class="lead"dir="rtl">
+
+            يجب إضافة البيانات المطلوبة (اسم المستخدم وكلمة المرور ورقم المستخدم والبريد الإلكتروني)</p>
+            <p class="lead"dir="rtl">
+
+            يجب ان يكون البريد الإلكتروني *gmail*</p>
+    </div>
+    <div class="col-md-5 order-md-1">
+        <img src="../public/images/p2.png" class="img-thumbnail" height="500" width="500" alt="...">
+
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7" dir="rtl">
+        <h2 class="featurette-heading fw-normal lh-1">الصفحه الثالثه : <span class="text-muted">  الصفحه الشخصية </span></h2>
+        <p class="lead">تتكون الصفحه الشخصيه من اكثر من جزء :</p>
+
+        <p class="lead">1  ) هذا الجزء يظهر داخله البريد الالكتروني والاسم وزر اضافة بحث  </p>
+        <p class="lead">2 )يظهر في هذا الجزء المعلومات الشخصيه للمستخدم (الاسم و رقم المستخدم والبريد الالكتروني)</p>
+        <p class="lead">
+            3 )هذا الجزء يظهر الابحاث التي قام المستخدم برفعها على الموقع وطلب تقيمها ويظهر لكل بحث 
+            <br>
+            (رقم البحث,عدد المؤلفين,ترتيب الباحث,الملغ اكلي والمستحق ,وحالة الطلب)
+            <br>
+            *حالة الطلب تنقسم الى :
+            <ul>
+
+                <li style="color: red;">لم يكتمل</li>
+                <li style="color: blue;">تم تقييم</li>
+                <li style="color: green;">تم الإرسال</li>
+            </ul>
+            ويظهر زر إالغاء الطلب في الحالات التالية
+            (لم يكتمل +نم التقييم)
+            <br>
+            و في حالة (تم الإرسال) يتم إرسال رسالة بالبريد الإلكتروني تحتوي على معلومات البحث والتقييم و المبلغ المستحق لك <span style="color: red;">وفي هذه الحالة لا يحق للباحث إالغاء تقديم الطلب</span>
+        </p>
+        <p class="lead">4 )يمكن من خلال هذا الجزء تغير كلمة المرور للمستخدم  </p>
+        <p class="lead">5 )يمكن من خلال هذا الجزء تغير البريد الإلكتروني للمستخدم ثم يتم إرسال  رسائل بالابحاث التي تم تقيمها الى البريد الإلكتروني الجديد  </p>
+
+    </div>
+    <div class="col-md-5">
+        <img src="../public/images/userProfilejpeg.jpeg" class="img-thumbnail" height="500" width="500" alt="...">
+
+    </div>
+</div>
+
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7 order-md-2"dir="rtl">
+        <h2 class="featurette-heading fw-normal lh-1">الصفحه الرابعه: <span class="text-muted"> تقديم البحث  </span></h2>
+        <p class="lead">
+            تتكون صفحة تقديم البحث من ثلاث اجزاء رئيسيه
+        </p>
+        <p class="lead">
+            1  ) هذا الجزء يمكن من خلاله رفع ملف البحث بصيغة (ris) فقط ثم الضغط على رفع الملف.
+
+        </p>
+        <p class="lead">
+
+            2 )هذا الجزء يتم من خلال تعبيئة البيانات الموجوده في الملف بشكل تلقائي واذا كان هناك نقص بالبيانات يتم ادخاله بشكل يدوي .
+        </p>
+        <p class="lead">
+            3 )في هذا الجزء يجب على الباحث تحديد الجامعه اذا كان التقديم في اسم جامعة مؤته ام لا ، ويختار الباحث نوع التقيم .
+        </p>
+        <br>
+        <p class="lead">4 ) وفي هذا الجزء يجب على الباحث تحديد كل باحث  وهل هو من داخل الأردن او خارجها او من داخل جامعة مؤتة</p>
+        <p class="lead">5 ) وفي هذا الجزء يجب على الباحث ان يحدد نفسه من بين الباحثين </p>
+
+    </div>
+    
+    
+    <div class="col-md-5 order-md-1">
+        
+        <center> <caption dir="rtl">الصفحة الرئيسيه بعد رفع الملف</caption></center>
+        <br>
+        <img src="../public/images/MainPageWithUpload.jpeg" class="img-thumbnail" height="500" width="500" alt="...">
+
+    </div>
+    
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7" dir="rtl">
+        <h2 class="featurette-heading fw-normal lh-1">الصفحه الخامسة : <span class="text-muted">  صفحة تأكيد إرسال الطلب  </span></h2>
+        <p class="lead">تتكون هذه الصفحة من  :</p>
+
+        <p class="lead">1  ) هذا الجزء يظهر داخله رسالة تم إرسال طلبك بنجاح   </p>
+        <p class="lead">2 )ثم يظهر زر اضافة بحث  وز الملف الشخصي</p>
+    
+
+    </div>
+    <div class="col-md-5">
+        <img src="../public/images/ThanksPage.jpeg" class="img-thumbnail" height="500" width="500" alt="...">
+
+    </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="p-4 mb-3 bg-light rounded">
+    <h4 class="fst-italic"></h4>
+    <div class="text-center" dir="rtl">
+    <p class="mb-0">تعليمات حوافز النشر العلمي ألعضاء هيئة التدريس والباحثين والموظفين والطلبة في جامعة مؤتة</p>
+    </div>
+</div>
+
+
+<iframe src="../public/images/Instructions5.pdf" width="100%" height="700px"></iframe>
+
+
+<div class="p-4 mb-3 bg-light rounded">
+    <h4 class="fst-italic"></h4>
+    <div class="text-center" dir="rtl">
+        <p class="mb-0">تعليمات البحث العلمي والإبتكار في جامعة مؤتة </p>
+    </div>
+</div>
+
+<iframe src="../public/images/bb.pdf" width="100%" height="700px"></iframe>
+<footer class="bd-footer py-4 py-md-5 mt-5 bg-dark ">
+    <div class="container py-4 py-md-5  px-md-3 ">
+        <div class="row" style="color: #ffffff;">
+            <div class="text-center">
+            <div class="col">
+              البحث العلمي /جامعة مؤته
+            </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+</body>
+</html>
